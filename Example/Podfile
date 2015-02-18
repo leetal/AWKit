@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'AWKit', :exclusive => true do
+  pod "AWKit", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
