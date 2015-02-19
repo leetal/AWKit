@@ -24,6 +24,7 @@ CGFloat AWRound(CGFloat value)
 #else
     return roundf(value);
 #endif
+}
 
 CGFloat AWCeil(CGFloat value)
 {
