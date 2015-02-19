@@ -1,6 +1,6 @@
 # AWKit
 
-[![CI Status](http://img.shields.io/travis/Alexander Widerberg/AWKit.svg?style=flat)](https://travis-ci.org/Alexander Widerberg/AWKit)
+[![CI Status](http://img.shields.io/travis/leetal/AWKit.svg?style=flat)](https://travis-ci.org/leetal/AWKit)
 [![Version](https://img.shields.io/cocoapods/v/AWKit.svg?style=flat)](http://cocoadocs.org/docsets/AWKit)
 [![License](https://img.shields.io/cocoapods/l/AWKit.svg?style=flat)](http://cocoadocs.org/docsets/AWKit)
 [![Platform](https://img.shields.io/cocoapods/p/AWKit.svg?style=flat)](http://cocoadocs.org/docsets/AWKit)
