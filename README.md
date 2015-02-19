@@ -7,9 +7,11 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+[TBD]
 
 ## Requirements
+
+iOS6+ is required.
 
 ## Installation
 
@@ -20,7 +22,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Alexander Widerberg, alexander.widerberg@cloudme.com
+Alexander Widerberg, widerbergaren@gmail.com
 
 ## License
 
