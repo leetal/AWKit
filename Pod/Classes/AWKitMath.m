@@ -8,38 +8,8 @@
 
 #include "AWKitMath.h"
 
-CGFloat AWFloor(CGFloat value)
-{
-#if __LP64__
-    return floor(value);
-#else
-    return floorf(value);
-#endif
-}
-
-CGFloat AWRound(CGFloat value)
-{
-#if __LP64__
-    return round(value);
-#else
-    return roundf(value);
-#endif
-}
-
-CGFloat AWCeil(CGFloat value)
-{
-#if __LP64__
-    return ceil(value);
-#else
-    return ceilf(value);
-#endif
-}
-
-CGFloat AWAbs(CGFloat value)
-{
-#if __LP64__
-    return fabs(value);
-#else
-    return fabsf(value);
-#endif
-}
+// Just to silence any warnings, include stubs in implementation file.
+CGFloat AWFloor(CGFloat value);
+CGFloat AWRound(CGFloat value);
+CGFloat AWCeil(CGFloat value);
+CGFloat AWAbs(CGFloat value);

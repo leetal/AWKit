@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface UIDevice (AWKit)
+
 + (BOOL)isPad;
 + (BOOL)isPhone;
+
 + (BOOL)isPhone4;
 + (BOOL)isPhone5;
 + (BOOL)isPhone6;
@@ -21,4 +23,5 @@
 + (NSUInteger)deviceSystemMajorVersion;
 + (BOOL)isDeviceSystemMajorVersionAtLeast8;
 + (BOOL)isDeviceSystemMajorVersionLessThan8;
+
 @end
