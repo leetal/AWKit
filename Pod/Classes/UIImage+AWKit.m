@@ -68,13 +68,24 @@ static CGFloat AWImageScaleFactorToFillSize(CGSize imageSize, CGSize constrainSi
     return scaleSize;
 }
 
+- (CGSize)AWImageAspectFillSize:(CGSize)imageSize constrainedToSize:(CGSize)constrainSize
+{
+    CGFloat scaleFactor     = AWImageScaleFactorToFillSize(imageSize, constrainSize);
+    CGSize scaleSize       = CGSizeZero;
+
+    scaleSize.width        = AWFloor(imageSize.width / scaleFactor);
+    scaleSize.height       = AWFloor(imageSize.height / scaleFactor);
+
+    return scaleSize;
+}
+
 - (CGSize)sizeFromHeight:(CGFloat)height
 {
     const CGFloat ratio = height / self.size.height;
 
     CGSize size = CGSizeZero;
-    size.height = floorf(ratio * self.size.height);
-    size.width = floorf(ratio * self.size.width);
+    size.height = AWFloor(ratio * self.size.height);
+    size.width = AWFloor(ratio * self.size.width);
 
     return size;
 }
@@ -84,8 +95,8 @@ static CGFloat AWImageScaleFactorToFillSize(CGSize imageSize, CGSize constrainSi
     const CGFloat ratio = width / self.size.width;
 
     CGSize size = CGSizeZero;
-    size.height = floorf(ratio * self.size.height);
-    size.width = floorf(ratio * self.size.width);
+    size.height = AWFloor(ratio * self.size.height);
+    size.width = AWFloor(ratio * self.size.width);
 
     return size;
 }

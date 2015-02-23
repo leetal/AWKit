@@ -21,12 +21,12 @@
 - (NSString*)stringWithUpperCaseFirstCharacterOfEachWord;
 
 /**
- @return A new string trimmed with the whitespaceCharacterSet.
+ @return A new string trimmed with the whitespaceCharacterSet in beginning and end.
  */
 - (NSString*)stringByTrimmingWhitespace;
 
 /**
- *  @return A new string trimmed with the newlineCharacterSet.
+ *  @return A new string trimmed with the newlineCharacterSet in beginning and end.
  */
 - (NSString*)stringByTrimmingNewLine;
 
