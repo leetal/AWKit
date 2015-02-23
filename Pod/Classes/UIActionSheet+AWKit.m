@@ -13,10 +13,8 @@ static const char __dismissBlock;
 static const char __cancelBlock;
 
 @interface UIActionSheet (_AWKit) <UIActionSheetDelegate>
-
 @property (nonatomic, copy) AWActionSheetDidDismissBlock dismissBlock;
 @property (nonatomic, copy) AWActionSheetDidCancelBlock cancelBlock;
-
 @end
 
 @implementation UIActionSheet (AWKit)
@@ -65,7 +63,7 @@ destructiveButtonTitle:(NSString*)destructiveButtonTitle
     }
 }
 
-#pragma mark - Properties
+#pragma mark - Additional block properties
 
 - (void)setDismissBlock:(AWActionSheetDidDismissBlock)dismissBlock
 {

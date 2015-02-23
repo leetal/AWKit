@@ -12,7 +12,7 @@
 
 /**
  *  Use this method to handle 32/64 bit correctly.
- *  @param value Value to floor.
+ *  @param value - Value to floor.
  *  @return Floor value of `value`
  */
 inline CGFloat AWFloor(CGFloat value)
@@ -26,7 +26,7 @@ inline CGFloat AWFloor(CGFloat value)
 
 /**
  *  Use this method to handle 32/64 bit correctly.
- *  @param value Value to round
+ *  @param value - Value to round
  *  @return Rounded value of `value`
  */
 inline CGFloat AWRound(CGFloat value)
@@ -40,7 +40,7 @@ inline CGFloat AWRound(CGFloat value)
 
 /**
  *  Use this method to handle 32/64 bit correctly.
- *  @param value Value to ceil.
+ *  @param value - Value to ceil.
  *  @return Ceil value of `value`
  */
 inline CGFloat AWCeil(CGFloat value)
@@ -54,7 +54,7 @@ inline CGFloat AWCeil(CGFloat value)
 
 /**
  *  Use this method to handle 32/64 bit correctly.
- *  @param value Value to absolute.
+ *  @param value - Value to absolute.
  *  @return Absolute value of `value`
  */
 inline CGFloat AWAbs(CGFloat value)
