@@ -13,7 +13,7 @@ typedef void (^AWAlertViewDidCancelBlock)();
 
 @interface UIAlertView (AWKit)
 
-/**
+/*!
  *  Creates a UIAlertView with optional cancel and dismissal blocks
  *
  *  @note Must be used on the main thread
@@ -28,7 +28,7 @@ typedef void (^AWAlertViewDidCancelBlock)();
  */
 - (id)initWithTitle:(NSString*)title message:(NSString*)message cancelButtonTitle:(NSString*)cancelButtonTitle otherButtonTitles:(NSArray*)otherButtons onCancel:(AWAlertViewDidCancelBlock)onCancel onDismiss:(AWAlertViewDidDismissBlock)onDismiss;
 
-/**
+/*!
  *  Creates a UIAlertView
  *
  *  @note Must be used on the main thread
@@ -40,7 +40,7 @@ typedef void (^AWAlertViewDidCancelBlock)();
  */
 + (UIAlertView*)alertWithTitle:(NSString*)title message:(NSString*)message cancelButtonTitle:(NSString*)cancelButtonTitle;
 
-/**
+/*!
  *  Creates a UIAlertView with optional cancel block
  *
  *  @note Must be used on the main thread
@@ -53,7 +53,7 @@ typedef void (^AWAlertViewDidCancelBlock)();
  */
 + (UIAlertView*)alertWithTitle:(NSString*)title message:(NSString*)message cancelButtonTitle:(NSString*)cancelButtonTitle onCancel:(AWAlertViewDidCancelBlock)cancelled;
 
-/**
+/*!
  *  Creates a UIAlertView with optional cancel and dismissal blocks
  *
  *  @note Must be used on the main thread

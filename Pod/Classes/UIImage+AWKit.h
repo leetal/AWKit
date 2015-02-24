@@ -10,7 +10,7 @@
 
 @interface UIImage (AWKit)
 
-/**
+/*!
  *  Creates an image with the scale factor of the main screen.
  *
  *  @param data - The NSData to convert to a UIImage
@@ -18,7 +18,7 @@
  */
 + (UIImage*)imageWithDataScreenScale:(NSData*)data;
 
-/**
+/*!
  *  Calculates the aspect fit size of an image given a constraining size
  *
  *  @param imageSize - The original image size
@@ -27,7 +27,7 @@
  */
 - (CGSize)AWImageAspectFitSize:(CGSize)imageSize constrainedToSize:(CGSize)constrainingSize;
 
-/**
+/*!
  *  Calculates the aspect fill size of an image given a constraining size
  *
  *  @param imageSize - The original image size
@@ -36,7 +36,7 @@
  */
 - (CGSize)AWImageAspectFillSize:(CGSize)imageSize constrainedToSize:(CGSize)constrainSize;
 
-/**
+/*!
  *  Calculates the image size given just the height with proportional ratio
  *
  *  @param height - The wanted image height
@@ -44,7 +44,7 @@
  */
 - (CGSize)sizeFromHeight:(CGFloat)height;
 
-/**
+/*!
  *  Calculates the image size given just the width with proportional ratio
  * 
  *  @param width - The wanted image width
@@ -52,7 +52,7 @@
  */
 - (CGSize)sizeFromWidth:(CGFloat)width;
 
-/**
+/*!
  *  As AWImageAspectFitSize, but calculated on self (UIImage shorthand)
  *
  *  @see AWImageAspectFitSize
