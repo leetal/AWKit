@@ -12,7 +12,7 @@
 
 + (UIColor*)colorWithHexString:(NSString*)hex alpha:(CGFloat)alpha
 {
-    UInt32 rgbValue = 0;
+    unsigned rgbValue = 0;
     NSScanner *scanner = [NSScanner scannerWithString:hex];
     [scanner setScanLocation:1]; // bypass '#' character
     [scanner scanHexInt:&rgbValue];
