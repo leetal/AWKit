@@ -13,7 +13,7 @@ typedef void (^AWActionSheetDidCancelBlock)();
 
 @interface UIActionSheet (AWKit)
 
-/**
+/*!
  *  Creates a UIActionSheet with optional cancel and dismissal blocks
  *
  *  @note Must be used on the main thread

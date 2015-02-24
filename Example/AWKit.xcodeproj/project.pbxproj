@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B5305AD64227FB21A8420FA /* AWKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AWKit.podspec; path = ../AWKit.podspec; sourceTree = "<group>"; };
+		4B5305AD64227FB21A8420FA /* AWKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; lineEnding = 0; name = AWKit.podspec; path = ../AWKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = "<none>"; };
 		508D2ED5A5AEE2F9794716F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5840CCE2BA9286556AB7FBD9 /* Pods-AWKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWKit/Pods-AWKit.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AWKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWKit.app; sourceTree = BUILT_PRODUCTS_DIR; };

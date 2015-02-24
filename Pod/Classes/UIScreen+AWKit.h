@@ -10,17 +10,17 @@
 
 @interface UIScreen (AWKit)
 
-/**
+/*!
  *  @return YES if the host device has a retina display.
  */
 + (BOOL)isRetina;
 
-/**
- *  @return CGRect of the screen bounds.
+/*!
+ *  @return CGRect of the screen bounds at current orientation.
  */
 + (CGRect)screenBounds;
 
-/**
+/*!
  *  @return CGRect of the screen bounds for interface orientation (UIInterfaceOrientation).
  */
 + (CGRect)screenBoundsForInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
