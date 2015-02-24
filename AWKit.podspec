@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AWKit"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "An Objective-C kit containing numerous categories and classes to make your life easier."
   s.description      = <<-DESC
 AWKit is a Objective-C kit that contains categories for NSString, NSObject, NSBundle, UIAlertView, UIActionSheet, UIDevice, UIImage, UIScreen (as of now) which all contain methods you otherwise do manually anyways. Also, some of the categories add threading capabilities with completion block support and so forth. All for your convenience.
