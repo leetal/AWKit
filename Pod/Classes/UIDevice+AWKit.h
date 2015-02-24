@@ -41,7 +41,7 @@
 + (BOOL)isPhone6Plus;
 
 /*!
- *  @return YES if the host device has a screen larder than iPhone 5.
+ *  @return YES if the host device has a screen larger than iPhone 5.
  */
 + (BOOL)isBiggerThan5;
 
