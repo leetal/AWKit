@@ -18,7 +18,7 @@ Contains the following classes and categories:
 *  UIScreen+AWKit - Contains functions that return current screen bound for current rotation
 *  NSObject+AWKit - Contains shorthands to execute a block on threads
 *  UIColor+AWKit - Contains functions for hex to UIColor and more..
-*  NSString+AWKit - Contains functions to strip strings from charachters and lots more...
+*  NSString+AWKit - Contains functions to strip strings from characters and lots more...
 *  UIDevice+AWKit - Contains functions that determine current device and more 
 
 This kit is a work in progress and will add more functionality as development continues!
