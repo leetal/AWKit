@@ -15,7 +15,7 @@ Contains the following classes and categories:
 *  UIImage+AWKit - Contains functions that calculate image size based upon some constraints like size and containers
 *  NSBundle+AWKit - NSBundle shorthands to get current version and so on
 *  UIAlertView+AWKit - Provides support for UIAlertView with additional onDismiss and onCancel block callbacks
-*  UIScreen+AWKit - Contains functions that return current screen bound for current roation
+*  UIScreen+AWKit - Contains functions that return current screen bound for current rotation
 *  NSObject+AWKit - Contains shorthands to execute a block on threads
 *  UIColor+AWKit - Contains functions for hex to UIColor and more..
 *  NSString+AWKit - Contains functions to strip strings from charachters and lots more...
